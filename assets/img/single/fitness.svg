@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fitness</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fitness" transform="translate(-937.000000, -134.000000)" filter="url(#filter-1)">
+            <g transform="translate(937.854767, 135.000000)">
+                <circle id="Oval" stroke="#000000" stroke-linecap="square" cx="9" cy="2" r="2"></circle>
+                <path d="M0,8.99999974 L5.846,7.051 C5.94791164,7.0171429 6.05461155,6.99992234 6.162,6.99999974 L11.838,6.99999974 C11.9453885,6.99992234 12.0520884,7.0171429 12.154,7.051 L18,8.99999974" id="Path" stroke="#000000" stroke-linecap="square"></path>
+                <line x1="6" y1="7.014" x2="6" y2="18" id="Path" stroke="#000000"></line>
+                <line x1="12" y1="7.013" x2="12" y2="22" id="Path" stroke="#000000"></line>
+                <path d="M0,13 C0,17.9705627 4.02943725,22 9,22" id="Path" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M15,19.694 C16.9086833,17.9924637 18.0001626,15.5570095 18,13" id="Path" stroke="#000000" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

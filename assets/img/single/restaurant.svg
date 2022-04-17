@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>restaurant</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="restaurant" transform="translate(-467.000000, -134.000000)" filter="url(#filter-1)">
+            <g transform="translate(468.054956, 135.000000)">
+                <line x1="11" y1="0" x2="11" y2="3" id="Path" stroke="#000000"></line>
+                <line x1="6" y1="2" x2="6" y2="5" id="Path" stroke="#000000"></line>
+                <line x1="16" y1="2" x2="16" y2="5" id="Path" stroke="#000000"></line>
+                <line x1="0" y1="22" x2="21.8" y2="22" id="Path" stroke="#000000"></line>
+                <circle id="Oval" stroke="#000000" cx="11" cy="10" r="2"></circle>
+                <path d="M1,22 C1,16.5 5.5,12 11,12 C16.5,12 21,16.5 21,22" id="Path" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

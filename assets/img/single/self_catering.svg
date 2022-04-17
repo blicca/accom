@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>self_catering</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="self_catering" transform="translate(-573.000000, -134.000000)" filter="url(#filter-1)">
+            <g transform="translate(573.854956, 135.000000)">
+                <path d="M5.663,20.0002864 L14.337,20.0002864 C17.7971002,18.3375394 19.9983527,14.8391687 20,11.0002864 L0,11.0002864 C0.00164726076,14.8391687 2.20289984,18.3375394 5.663,20.0002864 L5.663,20.0002864 Z" id="Path" stroke="#000000"></path>
+                <path d="M1,0.000286362198 L1,0.000286362198 C3.76142375,0.000286362198 6,2.23886261 6,5.00028636 L6,7.00028636 L6,7.00028636 C3.23857625,7.00028636 1,4.76171011 1,2.00028636 L1,0.000286362198 Z" id="Path" stroke="#000000" transform="translate(3.500000, 3.500286) rotate(180.000000) translate(-3.500000, -3.500286) "></path>
+                <path d="M18,7.00028636 C18,5.34343211 16.6568542,4.00028636 15,4.00028636 C15.0000862,2.4278505 14.0788868,1.0012321 12.6457002,0.354292611 C11.2125136,-0.292646875 9.53324067,-0.0398799655 8.354,1.00028636" id="Path" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eco_resort</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eco_resort" transform="translate(-150.000000, -135.000000)" filter="url(#filter-1)">
+            <g transform="translate(151.000000, 135.000000)">
+                <polyline id="Path" stroke="#000000" points="4.61 2.925 6.222 4.25 7.867 6.006 7.463 8.746 4.869 10.058 3.5 11.226 4.167 12.364 5.474 13.764 6.18 16.237 4.217 17.884 3.858 19.412"></polyline>
+                <path d="M22.5,7.5 C21.0882999,9.39593757 18.8637842,10.513386 16.5,10.514 C14.290861,10.514 12.5,12.304861 12.5,14.514 C12.5,16.723139 14.290861,18.514 16.5,18.514 C19.8137085,18.514 22.5,15.8277085 22.5,12.514 L22.5,7.5 Z" id="Path" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M16.257,15.271 C15.1304245,16.3954287 14.4981565,17.9223 14.5,19.514 C14.5,21.1708542 13.1568542,22.514 11.5,22.514" id="Path" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M7.5,21.742 C3.28773709,20.1055204 0.505898157,16.058165 0.487304232,11.539218 C0.468895954,7.02027105 3.21750149,2.9502734 7.41622353,1.27935824 C11.6149456,-0.391556921 16.4084752,0.676987467 19.5,3.973 C19.6,4.084 19.707,4.197 19.806,4.313 L18.343,5.143 L15.343,5.5 L13.059,3.662 L12.439,1.849 L11.627,0.499804304 L11.673,0.577" id="Path" stroke="#000000" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

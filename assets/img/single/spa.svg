@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>spa</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="spa" transform="translate(-729.000000, -134.000000)" filter="url(#filter-1)">
+            <g transform="translate(729.854956, 135.000000)">
+                <path d="M2.95190533,17.889 C2.02015154,17.3452122 1.25833397,16.5525756 0.751905325,15.6 C-1.14809467,12.4 1.15190533,4 1.15190533,4 C1.15190533,4 1.87990533,4.208 2.95190533,4.571" id="Path" stroke="#000000"></path>
+                <path d="M19.0479053,4.571 C20.1199053,4.208 20.8479053,4 20.8479053,4 C20.8479053,4 23.1479053,12.4 21.2479053,15.6 C20.7414767,16.5525756 19.9796591,17.3452122 19.0479053,17.889" id="Path" stroke="#000000"></path>
+                <path d="M3.99990533,11.717 C3.99990533,7.283 10.9999053,0 10.9999053,0 C10.9999053,0 17.9999053,7.283 17.9999053,11.717 C18.0968313,14.2809634 16.7842431,16.6927544 14.5785336,18.0035361 C12.3728241,19.3143178 9.62698658,19.3143178 7.42127707,18.0035361 C5.21556757,16.6927544 3.90297931,14.2809634 3.99990533,11.717 Z" id="Path" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ac</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ac" transform="translate(-624.000000, -135.000000)" filter="url(#filter-1)">
+            <g transform="translate(624.854956, 135.000000)">
+                <path d="M1.186,18.455 L11.5,12.5 C9.59311818,10.2521781 6.3504198,9.69207568 3.8,11.17 C1.26955608,12.6366531 0.165298533,15.7141268 1.186,18.455 L1.186,18.455 Z" id="Path" stroke="#000000"></path>
+                <path d="M21.814,18.455 L11.5,12.5 C10.5089748,15.2747708 11.6458225,18.3611019 14.2,19.83 C16.7340527,21.28781 19.9499075,20.7070639 21.814,18.455 Z" id="Path" stroke="#000000"></path>
+                <path d="M11.5,0.59 L11.5,12.5 C14.3981286,11.9719554 16.5032252,9.44583949 16.5,6.5 C16.4970353,3.57447929 14.3846041,1.07758553 11.5,0.59 L11.5,0.59 Z" id="Path" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

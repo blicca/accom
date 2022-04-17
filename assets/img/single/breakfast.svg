@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>breakfast</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.420000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="breakfast" transform="translate(-204.000000, -134.000000)" filter="url(#filter-1)">
+            <g transform="translate(205.000000, 135.000000)">
+                <line x1="15.5" y1="15.5" x2="18.5" y2="18.5" id="Path" stroke="#000000"></line>
+                <line x1="2.5" y1="2.5" x2="10.5" y2="10.5" id="Path" stroke="#000000"></line>
+                <polyline id="Path" stroke="#000000" points="4.5 0.5 9.5 5.5 5.5 9.5 0.5 4.5"></polyline>
+                <path d="M2.5,18.5 L19.5,1.5 C20.3393041,4.33191653 19.5732291,7.39621677 17.5,9.5 C13.964,13.036 11.5,13.5 11.5,13.5" id="Path" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
