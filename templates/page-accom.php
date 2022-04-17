@@ -210,19 +210,20 @@ while ( have_posts() ) : the_post();
                     <?php
                 }
                 ?>
-				<div class="hotel-header">
-					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-					<div>From <?php echo do_shortcode('[wpcs_price value='.get_field('starting_price').']'); ?></div>
-				</div>
-				<div class="accom-location">
-                    <?php
-                    if(get_field('city')) {
-	                    the_field( 'city' );
-                    }
-                    else {
-                        the_field('state');
-                    }
-                    ?>
+				<div class="accom-grid-over">
+                  <div class="hotel-header">
+                      <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  </div>
+                  <div class="accom-location">
+                      <?php
+                      if(get_field('city')) {
+                          the_field( 'city' );
+                      }
+                      else {
+                          the_field('state');
+                      }
+                      ?>
+                  </div>
 				</div>
 			</div>
             <?php
