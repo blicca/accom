@@ -693,7 +693,7 @@ function accom_update_chart_ajax_handler(){
 }
 
 
-function fwp_slider_set_label() {
+/*function fwp_slider_set_label() {
     global $WPCS;
 	$page_currency = $WPCS->current_currency;
 	$all_currencies = $WPCS->get_currencies();
@@ -724,4 +724,4 @@ function fwp_slider_set_label() {
 </script>
 <?php
 }
-add_action( 'wp_head', 'fwp_slider_set_label', 999 );
+add_action( 'wp_head', 'fwp_slider_set_label', 999 ); */
