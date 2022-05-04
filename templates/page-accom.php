@@ -115,7 +115,7 @@ while ( have_posts() ) : the_post();
                 <?php
                 echo facetwp_display( 'facet', 'amenities' );
                 ?>
-                <div class="filter-details custom-checkbox">Disabled Rooms <span>Details</span></div>
+                <div class="filter-details custom-checkbox">Disabled Facilities <span>Details</span></div>
                 <div class="reset-all-filters" onclick="FWP.reset(['price', 'approved', 'accom_type', 'inclusions', 'amenities', 'rooms', 'commen_areas'])">Reset filter settings</div>
             </div>
             <div class="close-filter-sidebar">
@@ -127,7 +127,7 @@ while ( have_posts() ) : the_post();
 		<div class="all-accoms-list loads-accoms">
 			<?php
 			$r = new WP_Query( array( 
-				'posts_per_page' => '9', 
+				'posts_per_page' => '12', 
                 'post_type' => 'accom_hotel', 
                 'meta_key' => 'starting_price',
                 'orderby' => 'meta_value_num',
@@ -165,7 +165,7 @@ while ( have_posts() ) : the_post();
 	                            <?php
                                 $image = esc_attr($image['id']);
                                 if( $image ) {
-					                $srcset = wp_get_attachment_image_srcset( $image, 'full' );
+					                $srcset = wp_get_attachment_image_srcset( $image, 'large' );
 					                ?>
                                     <a href="<?php the_permalink(); ?>"><img class="carousel-cell-image" data-flickity-lazyload-srcset="<?php echo esc_attr( $srcset ); ?>" sizes="(max-width: 2500px) 100vw, 2500px"/></a>
                                     <?php
