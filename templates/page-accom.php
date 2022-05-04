@@ -65,7 +65,7 @@ while ( have_posts() ) : the_post();
                 echo facetwp_display( 'facet', 'amenities' );
                 ?>
                 <div class="filter-details custom-checkbox">Disabled Facilities <span>Details</span></div>
-                <div class="reset-all-filters" onclick="FWP.reset(['price', 'approved', 'accom_type', 'inclusions', 'amenities', 'rooms', 'commen_areas'])">Reset filter settings</div>
+                <div class="reset-all-filters" onclick="FWP.reset(['approved', 'accom_type', 'inclusions', 'amenities', 'rooms', 'commen_areas'])">Reset filter settings</div>
             </div>
             <div class="close-filter-sidebar">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
