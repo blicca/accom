@@ -36,7 +36,6 @@ while ( have_posts() ) : the_post();
             </div>
 
             <div class="filter-sort">
-                
             </div>
         </div>
 	</div>
@@ -65,6 +64,10 @@ while ( have_posts() ) : the_post();
                 echo facetwp_display( 'facet', 'amenities' );
                 ?>
                 <div class="filter-details custom-checkbox">Disabled Facilities <span>Details</span></div>
+				<div style="margin-top: -13px"><?php
+				echo facetwp_display( 'facet', 'disabled_rooms' );
+				?>
+				</div>
                 <div class="reset-all-filters" onclick="FWP.reset(['approved', 'accom_type', 'inclusions', 'amenities', 'rooms', 'commen_areas'])">Reset filter settings</div>
             </div>
             <div class="close-filter-sidebar">
