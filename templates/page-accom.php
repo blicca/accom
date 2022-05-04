@@ -36,7 +36,7 @@ while ( have_posts() ) : the_post();
             </div>
 
             <div class="filter-sort">
-                <?php echo facetwp_display( 'sort' ); ?>
+                
             </div>
         </div>
 	</div>
@@ -78,9 +78,6 @@ while ( have_posts() ) : the_post();
 			$r = new WP_Query( array( 
 				'posts_per_page' => '12', 
                 'post_type' => 'accom_hotel', 
-                'meta_key' => 'starting_price',
-                'orderby' => 'meta_value_num',
-                'meta_type' => 'DECIMAL',
                 'order' => 'ASC',
                 'facetwp' => true, 
 			));
