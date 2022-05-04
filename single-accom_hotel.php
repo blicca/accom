@@ -654,11 +654,12 @@ if ( $single_location ) {
                 <div class="single-price-col">
                     <div class="single-price-title"></div>
                     <div class="single-price">
-						Rooms from
+						<?php the_field('text_price_field_section'); ?>
                         <?php
                         /*$formatter = new NumberFormatter('en_US', NumberFormatter::CURRENCY);
 						  /*echo $formatter->formatCurrency(get_field('starting_price'), 'USD'), PHP_EOL; */
-                        echo do_shortcode('[wpcs_price value='.get_field('starting_price').']');
+                         /*echo do_shortcode('[wpcs_price value='.get_field('starting_price').']'); */
+						
                         ?>
                     </div>
                     <div class="single-sidebar-outro">
