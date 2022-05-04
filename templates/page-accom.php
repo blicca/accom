@@ -46,57 +46,6 @@ while ( have_posts() ) : the_post();
         <div class="accoms-container">
 		<div class="all-filters">
             <div class="all-filters-column">
-                <span class="price-filter-title">Price Range</span>
-                <svg width="237" height="45" viewBox="0 0 237 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="5" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="11" y="29" width="4" height="16" fill="#E3E3E8"/>
-                    <rect x="17" y="25" width="4" height="20" fill="#E3E3E8"/>
-                    <rect x="23" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="23" y="17" width="4" height="28" fill="#E3E3E8"/>
-                    <rect x="29" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="29" y="12" width="4" height="33" fill="#E3E3E8"/>
-                    <rect x="35" y="28" width="4" height="17" fill="#E3E3E8"/>
-                    <rect x="41" y="22" width="4" height="23" fill="#E3E3E8"/>
-                    <rect x="47" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="47" y="3" width="4" height="42" fill="#E3E3E8"/>
-                    <rect x="53" width="4" height="45" fill="#E3E3E8"/>
-                    <rect x="59" y="9" width="4" height="36" fill="#E3E3E8"/>
-                    <rect x="65" y="17" width="4" height="28" fill="#E3E3E8"/>
-                    <rect x="71" y="24" width="4" height="21" fill="#E3E3E8"/>
-                    <rect x="77" y="14" width="4" height="31" fill="#E3E3E8"/>
-                    <rect x="83" y="38" width="4" height="7" fill="#E3E3E8"/>
-                    <rect x="89" y="40" width="4" height="5" fill="#E3E3E8"/>
-                    <rect x="95" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="95" y="32" width="4" height="13" fill="#E3E3E8"/>
-                    <rect x="101" y="22" width="4" height="23" fill="#E3E3E8"/>
-                    <rect x="107" y="12" width="4" height="33" fill="#E3E3E8"/>
-                    <rect x="113" y="6" width="4" height="39" fill="#E3E3E8"/>
-                    <rect x="119" y="9" width="4" height="36" fill="#E3E3E8"/>
-                    <rect x="125" y="28" width="4" height="17" fill="#E3E3E8"/>
-                    <rect x="131" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="137" y="38" width="4" height="7" fill="#E3E3E8"/>
-                    <rect x="143" y="41" width="4" height="4" fill="#E3E3E8"/>
-                    <rect x="149" y="43" width="4" height="2" fill="#E3E3E8"/>
-                    <rect x="155" y="41" width="4" height="4" fill="#E3E3E8"/>
-                    <rect x="161" y="38" width="4" height="7" fill="#E3E3E8"/>
-                    <rect x="167" y="31" width="4" height="14" fill="#E3E3E8"/>
-                    <rect x="173" y="41" width="4" height="4" fill="#E3E3E8"/>
-                    <rect x="179" y="38" width="4" height="7" fill="#E3E3E8"/>
-                    <rect x="185" y="35" width="4" height="10" fill="#E3E3E8"/>
-                    <rect x="191" y="41" width="4" height="4" fill="#E3E3E8"/>
-                    <rect x="197" y="43" width="4" height="2" fill="#E3E3E8"/>
-                    <rect x="203" y="44" width="4" height="1" fill="#E3E3E8"/>
-                    <rect x="209" y="38" width="4" height="7" fill="#E3E3E8"/>
-                    <rect x="215" y="40" width="4" height="5" fill="#E3E3E8"/>
-                    <rect x="221" y="43" width="4" height="2" fill="#E3E3E8"/>
-                    <rect x="227" y="44" width="4" height="1" fill="#E3E3E8"/>
-                    <rect x="233" y="44" width="4" height="1" fill="#E3E3E8"/>
-                </svg>
-
-                <?php
-                echo facetwp_display( 'facet', 'price' );
-                ?>
                 <div class="hotel-approved-filter">
 	            <?php
 	            echo facetwp_display( 'facet', 'approved' );
