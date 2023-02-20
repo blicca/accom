@@ -36,6 +36,13 @@ if ( $single_location ) {
 	<div class="theme-row-zero">
 		<div class="single-accom-title">
 			<h1><?php the_title(); ?></h1>
+			<?php
+			if(!empty(get_field('subheading'))) {
+            	?>
+              	<h2><?php the_field('subheading'); ?></h2>
+              	<?php
+			}
+			?>
 			<span class="single-accom-location"><?php echo wp_kses_post($address); ?></span>
 		</div>
         <div class="single-accom-gallery">
